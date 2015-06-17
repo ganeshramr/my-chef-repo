@@ -2,17 +2,15 @@ DEPENDENCIES
   liferay
     path: .
     metadata: true
-  tomcat
-    path: ../tomcat
 
 GRAPH
   chef-sugar (3.1.0)
   java (1.31.0)
-  liferay (0.1.0)
-    tomcat (>= 0.0.0)
-  openssl (4.0.0)
+  liferay (2.0.1)
+    tomcat (~> 0.17.3)
+  openssl (4.1.1)
     chef-sugar (>= 0.0.0)
-  tomcat (1.0.0)
+  tomcat (0.17.3)
     java (>= 0.0.0)
     openssl (>= 0.0.0)
     yum-epel (>= 0.0.0)

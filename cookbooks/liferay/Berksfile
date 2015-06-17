@@ -1,4 +1,3 @@
 source "https://supermarket.chef.io"
 
-cookbook 'tomcat' , path: "../tomcat"
 metadata
