@@ -1,0 +1,11 @@
+{
+  "chef":{
+    "chef_server_url":"https://mychefserver/organizations/ofs2",
+    "validation_client_name":"ofs2-validator",
+    "validation_key_path":"/opt/apps/my-chef-repo/.chef/ofs2-validator.pem",
+    "client_key":"/opt/apps/my-chef-repo/.chef/ganesh.pem",
+    "node_name":"ganesh"
+    }
+
+  }
+
